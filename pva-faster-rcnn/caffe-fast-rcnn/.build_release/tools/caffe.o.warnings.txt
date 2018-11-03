@@ -1,0 +1,9 @@
+In file included from ./include/caffe/parallel.hpp:13:0,
+                 from ./include/caffe/caffe.hpp:13,
+                 from tools/caffe.cpp:15:
+./include/caffe/solver.hpp:119:26: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   Dtype smoothed_loss_ = 0;
+                          ^
+./include/caffe/solver.hpp:122:21: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11
+   int start_iter_ = 0;
+                     ^
